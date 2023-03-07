@@ -3,11 +3,13 @@ package com.example.kotlinbasics
 fun main(){
     var myName = "Manohar"
     myName = "Virat"
-    println("Hello " + myName)
+//  println("Hello " + myName)
+    println("Hello  $myName") //string interpolation(same as + myName)
 
     val mySurname = "Acharya"
-    mySurname = "Kohli"
+//  mySurname = "Kohli"
     println("Hello " + mySurname)
+
 }
 
 //Diff between var & val
